@@ -51,8 +51,8 @@ class CreditCardTest(unittest.TestCase):
 
     #실행할 테스트 케이스
     def test_KR_CreditCard(self):
-        KRID = '120000'
-        PW = 'atomy@8580'
+        KRID = 'tetID'
+        PW = 'test'
         Order_Info = {'Nation': 'KR', 'ID': KRID, 'Price': '', 'Num': '', 'Cancel':'', 'Etc': ''}
 
     #=====>앱 실행 및 권한 허용

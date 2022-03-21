@@ -51,8 +51,8 @@ class DepositTest(unittest.TestCase):
 
     #실행할 테스트 케이스
     def test_KR(self):
-        KRID = '120000'
-        PW = 'atomy@8580'
+        KRID = 'testID'
+        PW = 'test'
         Order_Info = {'Nation':'KR', 'ID': KRID, 'Price': '', 'Num': '','Cancel':'', 'Etc': ''}
 
         #*************앱 실행 및 권한 허용***********
@@ -215,8 +215,8 @@ class DepositTest(unittest.TestCase):
         wb.save("APP_Deposit.xlsx")
 
     def test_KR_SMS(self):
-        KRID = '120000'
-        PW = 'atomy@8580'
+        KRID = 'test'
+        PW = 'testID'
         Order_Info = {'Nation':'KR', 'ID': KRID, 'Price': '', 'Num': '','Cancel':'', 'Etc': 'SMS결제'}
 
     #=====>앱 실행 및 권한 허용
@@ -368,8 +368,8 @@ class DepositTest(unittest.TestCase):
         wb.save("APP_Deposit.xlsx")
 
     def test_US(self):
-        USID = '27057016'
-        PW = 'atomy@8580'
+        USID = 'testID'
+        PW = 'test'
         Order_Info = {'Nation':'US', 'ID': USID, 'Price': '', 'Num': '','Cancel':'', 'Etc': ''}
 
         driver = self.driver
